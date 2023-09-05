@@ -8,8 +8,8 @@
 import Foundation
 
 enum G6Error: String, Error {
-    case invalidendPoint = "This endpoint created an invalid request. Please try again."
+    case invalidEndPoint = "This endpoint created an invalid request. Please try again."
     case unableToComplete = "Unable to complete your request. Please check your internet connection"
-    case invalidResponse = "Invalide response from the server. Please try again Error"
+    case invalidResponse = "Invalid response from the server. Please try again Error"
     case invalidData = "The data received from the server was invalid, Please try again"
 }

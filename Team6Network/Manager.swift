@@ -12,76 +12,14 @@ class Manager {
     
     private init() { }
     
-    public func getComponentById(id: Int, uIdFirebase: String, completionHandler: @escaping (Result<CardsModel, G6Error>) -> Void) {
+    public func fetchTheme<T: Codable>(url: String) async throws -> T? {
+        guard let url = URL(string: url) else { return nil }
         
-        let urlStr = "\(Constants.urlBase)\(Constants.endPointComponentById)?id=\(id)&uIdFirebase=\(uIdFirebase)"
+        let request = URLRequest(url: url )
+        let (data, _) = try await URLSession.shared.data(for: request)
         
-        guard let url = URL(string: urlStr) else {
-            completionHandler(.failure(.invalidendPoint))
-            return
-        }
+        let response = try JSONDecoder().decode(T.self, from: data)
         
-        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-            
-            if let _ = error {
-                completionHandler(.failure(.unableToComplete))
-            }
-            
-            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
-                completionHandler(.failure(.invalidResponse))
-                return
-            }
-            
-            guard let data = data else {
-                completionHandler(.failure(.invalidData))
-                return
-            }
-            
-            do {
-                let decoder = JSONDecoder()
-                let themes = try decoder.decode(CardsModel.self, from: data)
-                completionHandler(.success(themes))
-            } catch {
-                completionHandler(.failure(.invalidData))
-            }
-        }
-        task.resume()
-    }
-    
-    public func getListaTheme(uIdFirebase: String, completionHandler: @escaping (Result<[ThemeModel], G6Error>) -> Void) {
-        
-        let urlStr = "\(Constants.urlBase)\(Constants.endPointGetListaTheme)?uIdFirebase=\(uIdFirebase)"
-        
-        guard let url = URL(string: urlStr) else {
-            completionHandler(.failure(.invalidendPoint))
-            return
-        }
-        
-        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-            
-            if let _ = error {
-                completionHandler(.failure(.unableToComplete))
-            }
-            
-            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
-                completionHandler(.failure(.invalidResponse))
-                return
-            }
-            
-            guard let data = data else {
-                completionHandler(.failure(.invalidData))
-                return
-            }
-            
-            do {
-                let decoder = JSONDecoder()
-                decoder.keyDecodingStrategy = .convertFromSnakeCase
-                let themes = try decoder.decode([ThemeModel].self, from: data)
-                completionHandler(.success(themes))
-            } catch {
-                completionHandler(.failure(.invalidData))
-            }
-        }
-        task.resume()
+        return response
     }
 }
