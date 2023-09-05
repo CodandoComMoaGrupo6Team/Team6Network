@@ -19,6 +19,9 @@
 		839CA74B2AA0098200D52003 /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CA74A2AA0098200D52003 /* ThemeModel.swift */; };
 		839CA74E2AA00B2500D52003 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CA74D2AA00B2500D52003 /* Manager.swift */; };
 		839CA7502AA00CD200D52003 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CA74F2AA00CD200D52003 /* Constants.swift */; };
+		839CA7522AA691DB00D52003 /* G6Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CA7512AA691DB00D52003 /* G6Error.swift */; };
+		839CA7542AA6A6EF00D52003 /* ExceptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CA7532AA6A6EF00D52003 /* ExceptionModel.swift */; };
+		839CA7562AA6A70B00D52003 /* CardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CA7552AA6A70B00D52003 /* CardsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		839CA74A2AA0098200D52003 /* ThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
 		839CA74D2AA00B2500D52003 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		839CA74F2AA00CD200D52003 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		839CA7512AA691DB00D52003 /* G6Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G6Error.swift; sourceTree = "<group>"; };
+		839CA7532AA6A6EF00D52003 /* ExceptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptionModel.swift; sourceTree = "<group>"; };
+		839CA7552AA6A70B00D52003 /* CardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 				839CA7262AA0061B00D52003 /* Info.plist */,
 				839CA74D2AA00B2500D52003 /* Manager.swift */,
 				839CA74F2AA00CD200D52003 /* Constants.swift */,
+				839CA7512AA691DB00D52003 /* G6Error.swift */,
 			);
 			path = Team6Network;
 			sourceTree = "<group>";
@@ -140,6 +147,8 @@
 			children = (
 				839CA7482AA008C100D52003 /* ThemeComponentModel.swift */,
 				839CA74A2AA0098200D52003 /* ThemeModel.swift */,
+				839CA7532AA6A6EF00D52003 /* ExceptionModel.swift */,
+				839CA7552AA6A70B00D52003 /* CardsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -277,10 +286,13 @@
 				839CA71D2AA0061A00D52003 /* ViewController.swift in Sources */,
 				839CA7192AA0061A00D52003 /* AppDelegate.swift in Sources */,
 				839CA74E2AA00B2500D52003 /* Manager.swift in Sources */,
+				839CA7542AA6A6EF00D52003 /* ExceptionModel.swift in Sources */,
 				839CA74B2AA0098200D52003 /* ThemeModel.swift in Sources */,
+				839CA7562AA6A70B00D52003 /* CardsModel.swift in Sources */,
 				839CA7502AA00CD200D52003 /* Constants.swift in Sources */,
 				839CA71B2AA0061A00D52003 /* SceneDelegate.swift in Sources */,
 				839CA7492AA008C100D52003 /* ThemeComponentModel.swift in Sources */,
+				839CA7522AA691DB00D52003 /* G6Error.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

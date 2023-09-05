@@ -10,6 +10,10 @@ import Foundation
 struct Constants {
     
     static let urlBase = "http://mentoria.codandocommoa.com.br"
+    static let endPointGetListaTheme = "/Api/Theme/GetListaTheme"
+    static let endPointGetThemeById =  "/Api/Theme/GetThemeById"
+    static let endPointThemeComponent = "/Api/ThemeComponent/GetListaThemeComponent"
+    static let endPointComponentById = "/Api/ThemeComponent/GetThemeComponentById"
     
 }
 

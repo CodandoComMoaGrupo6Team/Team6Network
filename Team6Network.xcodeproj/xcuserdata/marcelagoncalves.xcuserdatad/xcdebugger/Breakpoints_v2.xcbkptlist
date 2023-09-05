@@ -7,157 +7,97 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5E194A9F-34B5-475D-9941-1E5818500C33"
+            uuid = "03E9CCE8-7D85-48F6-846E-2308792B1B47"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Team6Network/Manager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "getComponentById(id:uIdFirebase:completionHandler:)"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getListaTheme(uIdFirebase:completionHandler:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "5E194A9F-34B5-475D-9941-1E5818500C33 - ab3d23f1328a064c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Team6Network.Manager.getComponentById(id: Swift.Int, uIdFirebase: Swift.String, completionHandler: (Swift.Result&lt;Team6Network.CardsModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Team6Network"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marcelagoncalves/Developer/Desafios/Team6Network/Team6Network/Manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "528">
-               </Location>
-               <Location
-                  uuid = "5E194A9F-34B5-475D-9941-1E5818500C33 - ab3d23f1328a064c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Team6Network.Manager.getComponentById(id: Swift.Int, uIdFirebase: Swift.String, completionHandler: (Swift.Result&lt;Team6Network.CardsModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Team6Network"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marcelagoncalves/Developer/Desafios/Team6Network/Team6Network/Manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "532">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "88B97164-046F-4EE2-AF9E-740893518AA1"
+            uuid = "22843195-5FBE-46EE-8281-CDAFACE736E3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Team6Network/Manager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "getComponentById(id:uIdFirebase:completionHandler:)"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getListaTheme(uIdFirebase:completionHandler:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "88B97164-046F-4EE2-AF9E-740893518AA1 - ab3d23f1328a068e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Team6Network.Manager.getComponentById(id: Swift.Int, uIdFirebase: Swift.String, completionHandler: (Swift.Result&lt;Team6Network.CardsModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Team6Network"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marcelagoncalves/Developer/Desafios/Team6Network/Team6Network/Manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "1272">
-               </Location>
-               <Location
-                  uuid = "88B97164-046F-4EE2-AF9E-740893518AA1 - ab3d23f1328a068e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Team6Network.Manager.getComponentById(id: Swift.Int, uIdFirebase: Swift.String, completionHandler: (Swift.Result&lt;Team6Network.CardsModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Team6Network"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marcelagoncalves/Developer/Desafios/Team6Network/Team6Network/Manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "1344">
-               </Location>
-               <Location
-                  uuid = "88B97164-046F-4EE2-AF9E-740893518AA1 - ab3d23f1328a068e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Team6Network.Manager.getComponentById(id: Swift.Int, uIdFirebase: Swift.String, completionHandler: (Swift.Result&lt;Team6Network.CardsModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Team6Network"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marcelagoncalves/Developer/Desafios/Team6Network/Team6Network/Manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "1936">
-               </Location>
-               <Location
-                  uuid = "88B97164-046F-4EE2-AF9E-740893518AA1 - ab3d23f1328a068e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Team6Network.Manager.getComponentById(id: Swift.Int, uIdFirebase: Swift.String, completionHandler: (Swift.Result&lt;Team6Network.CardsModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Team6Network"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marcelagoncalves/Developer/Desafios/Team6Network/Team6Network/Manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "1280">
-               </Location>
-               <Location
-                  uuid = "88B97164-046F-4EE2-AF9E-740893518AA1 - ab3d23f1328a068e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Team6Network.Manager.getComponentById(id: Swift.Int, uIdFirebase: Swift.String, completionHandler: (Swift.Result&lt;Team6Network.CardsModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Team6Network"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marcelagoncalves/Developer/Desafios/Team6Network/Team6Network/Manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "1352">
-               </Location>
-               <Location
-                  uuid = "88B97164-046F-4EE2-AF9E-740893518AA1 - ab3d23f1328a068e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Team6Network.Manager.getComponentById(id: Swift.Int, uIdFirebase: Swift.String, completionHandler: (Swift.Result&lt;Team6Network.CardsModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Team6Network"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marcelagoncalves/Developer/Desafios/Team6Network/Team6Network/Manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "1956">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E02A04A-3315-474C-861D-DF70EC93415B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Team6Network/Manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getListaTheme(uIdFirebase:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E47F40C1-0411-48D7-8D07-BB50AB0EACDF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Team6Network/Manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getListaTheme(uIdFirebase:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEBA30B1-D605-4019-B77C-96E17FF16932"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Team6Network/Manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getListaTheme(uIdFirebase:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFD51AF7-3225-4559-B85B-0E29CCCCEE1A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Team6Network/Manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "getListaTheme(uIdFirebase:completionHandler:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
