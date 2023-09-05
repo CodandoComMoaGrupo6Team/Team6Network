@@ -19,6 +19,8 @@
 		839CA74B2AA0098200D52003 /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CA74A2AA0098200D52003 /* ThemeModel.swift */; };
 		839CA74E2AA00B2500D52003 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CA74D2AA00B2500D52003 /* Manager.swift */; };
 		839CA7502AA00CD200D52003 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CA74F2AA00CD200D52003 /* Constants.swift */; };
+		EA7454EA2AA6C7CC003F8A7D /* ThemeById.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7454E92AA6C7CC003F8A7D /* ThemeById.swift */; };
+		EA7454EC2AA6C90C003F8A7D /* ThemeComponenteById.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7454EB2AA6C90C003F8A7D /* ThemeComponenteById.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		839CA74A2AA0098200D52003 /* ThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
 		839CA74D2AA00B2500D52003 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		839CA74F2AA00CD200D52003 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EA7454E92AA6C7CC003F8A7D /* ThemeById.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeById.swift; sourceTree = "<group>"; };
+		EA7454EB2AA6C90C003F8A7D /* ThemeComponenteById.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeComponenteById.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +109,7 @@
 		839CA7172AA0061A00D52003 /* Team6Network */ = {
 			isa = PBXGroup;
 			children = (
-				839CA74C2AA00B1200D52003 /* Models */,
+				EA7454E42AA6C57F003F8A7D /* Source */,
 				839CA7182AA0061A00D52003 /* AppDelegate.swift */,
 				839CA71A2AA0061A00D52003 /* SceneDelegate.swift */,
 				839CA71C2AA0061A00D52003 /* ViewController.swift */,
@@ -113,7 +117,6 @@
 				839CA7232AA0061B00D52003 /* LaunchScreen.storyboard */,
 				839CA7262AA0061B00D52003 /* Info.plist */,
 				839CA74D2AA00B2500D52003 /* Manager.swift */,
-				839CA74F2AA00CD200D52003 /* Constants.swift */,
 			);
 			path = Team6Network;
 			sourceTree = "<group>";
@@ -135,13 +138,40 @@
 			path = Team6NetworkUITests;
 			sourceTree = "<group>";
 		};
-		839CA74C2AA00B1200D52003 /* Models */ = {
+		EA7454E42AA6C57F003F8A7D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EA7454E82AA6C5ED003F8A7D /* Network */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EA7454E52AA6C589003F8A7D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				839CA74F2AA00CD200D52003 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EA7454E62AA6C591003F8A7D /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				839CA7482AA008C100D52003 /* ThemeComponentModel.swift */,
 				839CA74A2AA0098200D52003 /* ThemeModel.swift */,
+				EA7454E92AA6C7CC003F8A7D /* ThemeById.swift */,
+				EA7454EB2AA6C90C003F8A7D /* ThemeComponenteById.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EA7454E82AA6C5ED003F8A7D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EA7454E52AA6C589003F8A7D /* Helpers */,
+				EA7454E62AA6C591003F8A7D /* Models */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7454EC2AA6C90C003F8A7D /* ThemeComponenteById.swift in Sources */,
 				839CA71D2AA0061A00D52003 /* ViewController.swift in Sources */,
 				839CA7192AA0061A00D52003 /* AppDelegate.swift in Sources */,
 				839CA74E2AA00B2500D52003 /* Manager.swift in Sources */,
 				839CA74B2AA0098200D52003 /* ThemeModel.swift in Sources */,
 				839CA7502AA00CD200D52003 /* Constants.swift in Sources */,
+				EA7454EA2AA6C7CC003F8A7D /* ThemeById.swift in Sources */,
 				839CA71B2AA0061A00D52003 /* SceneDelegate.swift in Sources */,
 				839CA7492AA008C100D52003 /* ThemeComponentModel.swift in Sources */,
 			);
